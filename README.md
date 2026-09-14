@@ -21,6 +21,20 @@ Download Release : https://github.com/CodeInPas/MasSender/releases/tag/MasSender
 By downloading, installing, or using this software, you explicitly agree to the following terms:
 
 Intended Use: MasSenderis a powerful mass email delivery application designed strictly for legitimate marketing, transactional communications, and authorized newsletter distributions.
+
 Zero Tolerance for Abuse: Under no circumstances should this software be misused for scams, phishing, social engineering, malicious spamming, or any other illegal activities.
+
 Compliance: You are solely responsible for ensuring that your email campaigns comply with all applicable local and international anti-spam laws (such as CAN-SPAM Act, GDPR, etc.), including providing clear opt-out/unsubscribe mechanisms for your recipients.
+
 No Liability: The developers and contributors of this open-source project assume no liability and are not responsible for any misuse, damage, or legal consequences caused by the use of this software.
+
+---
+Bahasa
+
+Tujuan Penggunaan: MasSender adalah aplikasi pengiriman email massal tangguh yang dirancang secara tegas untuk pemasaran yang sah, komunikasi transaksional, dan distribusi nawala (newsletter) yang resmi.
+
+Tanpa Toleransi terhadap Penyalahgunaan: Dalam keadaan apa pun, perangkat lunak ini tidak boleh disalahgunakan untuk penipuan (scams), pengelabuan (phishing), rekayasa sosial (social engineering), spamming yang berbahaya, atau segala bentuk aktivitas ilegal lainnya.
+
+Kepatuhan: Anda bertanggung jawab penuh untuk memastikan bahwa kampanye email Anda mematuhi semua undang-undang anti-spam lokal maupun internasional yang berlaku (seperti CAN-SPAM Act, GDPR, dll.), termasuk keharusan untuk menyediakan mekanisme berhenti berlangganan (opt-out/unsubscribe) yang jelas bagi para penerima Anda.
+
+Bebas Tanggung Gugat: Para pengembang dan kontributor dari proyek sumber terbuka (open-source) ini tidak menanggung kewajiban hukum apa pun dan tidak bertanggung jawab atas segala bentuk penyalahgunaan, kerugian, atau konsekuensi hukum yang ditimbulkan oleh penggunaan perangkat lunak ini.
