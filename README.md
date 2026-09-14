@@ -14,3 +14,13 @@
 > 
 > 
 > PasMail adalah aplikasi desktop open-source yang dirancang untuk mengelola kampanye email massal secara otomatis dan aman. Dibangun sepenuhnya menggunakan **Lazarus FPC** (native) dan **SQLite**, aplikasi ini menjamin performa tinggi tanpa membebani RAM. PasMail dilengkapi fitur kelas atas seperti **Smart Circuit Breaker** untuk menjaga reputasi SMTP, **Gemini AI Spintax Generator** untuk personalisasi dinamis, serta **Mode Warm-Up SMTP Otomatis**.
+
+# Download
+Download Release : https://github.com/CodeInPas/MasSender/releases/tag/MasSender_v01
+
+By downloading, installing, or using this software, you explicitly agree to the following terms:
+
+Intended Use: MasSenderis a powerful mass email delivery application designed strictly for legitimate marketing, transactional communications, and authorized newsletter distributions.
+Zero Tolerance for Abuse: Under no circumstances should this software be misused for scams, phishing, social engineering, malicious spamming, or any other illegal activities.
+Compliance: You are solely responsible for ensuring that your email campaigns comply with all applicable local and international anti-spam laws (such as CAN-SPAM Act, GDPR, etc.), including providing clear opt-out/unsubscribe mechanisms for your recipients.
+No Liability: The developers and contributors of this open-source project assume no liability and are not responsible for any misuse, damage, or legal consequences caused by the use of this software.
