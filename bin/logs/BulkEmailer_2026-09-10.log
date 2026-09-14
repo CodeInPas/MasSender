@@ -1,0 +1,236 @@
+[2026-09-10 15.07.06.143] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.07.06.145] [ERROR] Kesalahan inisialisasi skema database: TSQLite3Connection : Safety level may not be changed inside a transaction
+[2026-09-10 15.07.06.147] [ERROR] TSmtpRepo.Save Error: TSQLite3Connection : no such table: smtp_profiles
+[2026-09-10 15.07.06.151] [ERROR] TSmtpRepo.GetAll Error: TSQLite3Connection : no such table: smtp_profiles
+[2026-09-10 15.08.11.426] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.08.21.886] [ERROR] Kesalahan inisialisasi skema database: TSQLite3Connection : cannot change into wal mode from within a transaction
+[2026-09-10 15.08.23.857] [ERROR] TSmtpRepo.Save Error: TSQLite3Connection : no such table: smtp_profiles
+[2026-09-10 15.08.24.958] [ERROR] TSmtpRepo.GetAll Error: TSQLite3Connection : no such table: smtp_profiles
+[2026-09-10 15.08.39.272] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.08.39.275] [ERROR] Kesalahan inisialisasi skema database: TSQLite3Connection : Safety level may not be changed inside a transaction
+[2026-09-10 15.08.39.275] [ERROR] TSmtpRepo.Save Error: TSQLite3Connection : no such table: smtp_profiles
+[2026-09-10 15.08.39.280] [ERROR] TSmtpRepo.GetAll Error: TSQLite3Connection : no such table: smtp_profiles
+[2026-09-10 15.10.37.542] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.11.18.307] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.12.58.883] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.12.58.885] [INFO ] Skema database siap.
+[2026-09-10 15.17.10.374] [ERROR] BulkInsert Error: Transaction already active
+[2026-09-10 15.17.17.185] [ERROR] BulkInsert Error: Transaction already active
+[2026-09-10 15.18.53.380] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.18.53.384] [INFO ] Skema database siap.
+[2026-09-10 15.22.56.376] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.22.56.389] [INFO ] Skema database siap.
+[2026-09-10 15.23.04.589] [INFO ] Berhasil mengimpor batch berisi 4 kontak.
+[2026-09-10 15.25.32.493] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.25.52.101] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.26.19.475] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.26.47.682] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.28.48.860] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.29.01.779] [ERROR] Kesalahan inisialisasi skema database: TSQLite3Connection : cannot change into wal mode from within a transaction
+[2026-09-10 15.29.01.838] [INFO ] Berhasil mengimpor batch berisi 4 kontak.
+[2026-09-10 15.29.13.445] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.29.34.002] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.29.34.003] [INFO ] Skema database siap.
+[2026-09-10 15.29.34.029] [INFO ] Berhasil mengimpor batch berisi 4 kontak.
+[2026-09-10 15.29.41.695] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 15.29.41.696] [INFO ] Dispatcher: Memulai Campaign ID 2
+[2026-09-10 15.29.41.703] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 15.29.41.704] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 15.29.41.729] [INFO ] Dispatcher: Meluncurkan Worker (SMTP smtp.gmail.com) untuk 4 email. (Mode Warm-Up: Mati, Sisa Kuota Harian: 496)
+[2026-09-10 15.29.41.729] [INFO ] Worker memulai batch 4 email via SMTP: smtp.gmail.com
+[2026-09-10 15.29.41.731] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 15.29.41.741] [INFO ] Dispatcher: Semua kontak telah berhasil di-dispatch / antrean kosong.
+[2026-09-10 15.29.41.741] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 15.29.44.730] [ERROR] Koneksi SMTP Terputus/Gagal: SSL negotiation failed.
+[2026-09-10 15.30.34.594] [INFO ] Memulai Pre-Flight DNS Check untuk domain: gmail.com
+[2026-09-10 15.30.39.602] [ERROR] DNS Query Error [gmail.com]: TimedOut
+[2026-09-10 15.30.39.603] [WARN ] ❌ SPF Tidak Ditemukan/Invalid. Email berisiko tinggi masuk Spam.
+[2026-09-10 15.30.44.621] [ERROR] DNS Query Error [_dmarc.gmail.com]: TimedOut
+[2026-09-10 15.30.44.622] [WARN ] ❌ DMARC Tidak Ditemukan/Invalid.
+[2026-09-10 15.31.37.765] [INFO ] Berhasil mengimpor batch berisi 4 kontak.
+[2026-09-10 15.31.57.190] [INFO ] Berhasil mengimpor batch berisi 4 kontak.
+[2026-09-10 15.32.24.866] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.32.24.893] [INFO ] Skema database siap.
+[2026-09-10 15.32.40.331] [INFO ] Kampanye ID 4 berhasil dihapus.
+[2026-09-10 15.40.26.940] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.40.26.957] [INFO ] Skema database siap.
+[2026-09-10 15.40.26.990] [INFO ] Berhasil mengimpor batch berisi 4 kontak.
+[2026-09-10 15.46.04.183] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.46.04.215] [INFO ] Skema database siap.
+[2026-09-10 15.49.41.870] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 15.49.41.927] [INFO ] Skema database siap.
+[2026-09-10 16.09.49.547] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.09.49.592] [INFO ] Skema database siap.
+[2026-09-10 16.13.44.018] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.13.44.046] [INFO ] Skema database siap.
+[2026-09-10 16.14.02.277] [INFO ] Seluruh antrean (Active) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.14.10.153] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.14.10.156] [INFO ] Skema database siap.
+[2026-09-10 16.24.38.494] [INFO ] Seluruh antrean (Active) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.26.51.546] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.26.51.588] [INFO ] Skema database siap.
+[2026-09-10 16.26.54.791] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.27.07.138] [INFO ] Memulai Pre-Flight DNS Check untuk domain: gmail.com
+[2026-09-10 16.27.23.969] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.27.23.976] [INFO ] Skema database siap.
+[2026-09-10 16.27.29.832] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.28.07.681] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.28.07.687] [INFO ] Skema database siap.
+[2026-09-10 16.28.22.531] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.28.22.537] [INFO ] Skema database siap.
+[2026-09-10 16.28.24.183] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.28.28.826] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.28.56.029] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.28.56.036] [INFO ] Skema database siap.
+[2026-09-10 16.28.57.543] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.29.04.541] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.29.04.545] [INFO ] Dispatcher: Memulai Campaign ID 3
+[2026-09-10 16.29.04.591] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.29.06.652] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.29.06.715] [INFO ] Dispatcher: Meluncurkan Worker (SMTP smtp.gmail.com) untuk 4 email. (Mode Warm-Up: Mati, Sisa Kuota Harian: 496)
+[2026-09-10 16.29.06.715] [INFO ] Worker memulai batch 4 email via SMTP: smtp.gmail.com
+[2026-09-10 16.29.07.295] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.29.07.367] [INFO ] Dispatcher: Semua kontak telah berhasil di-dispatch / antrean kosong.
+[2026-09-10 16.29.07.367] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.29.17.655] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.29.17.657] [INFO ] Skema database siap.
+[2026-09-10 16.29.31.693] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.29.34.185] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.29.34.185] [INFO ] Dispatcher: Memulai Campaign ID 3
+[2026-09-10 16.29.34.191] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.29.34.192] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.29.34.231] [INFO ] Dispatcher: Meluncurkan Worker (SMTP smtp.gmail.com) untuk 4 email. (Mode Warm-Up: Mati, Sisa Kuota Harian: 496)
+[2026-09-10 16.29.34.231] [INFO ] Worker memulai batch 4 email via SMTP: smtp.gmail.com
+[2026-09-10 16.29.34.234] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.29.34.239] [INFO ] Dispatcher: Semua kontak telah berhasil di-dispatch / antrean kosong.
+[2026-09-10 16.29.34.239] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.29.55.485] [ERROR] Koneksi SMTP Terputus/Gagal: Socket Error # 10060
+Connection timed out.
+[2026-09-10 16.30.06.528] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.31.20.971] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.31.20.972] [INFO ] Dispatcher: Memulai Campaign ID 2
+[2026-09-10 16.31.20.977] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.31.20.977] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.31.21.045] [INFO ] Dispatcher: Meluncurkan Worker (SMTP smtp.gmail.com) untuk 4 email. (Mode Warm-Up: Mati, Sisa Kuota Harian: 496)
+[2026-09-10 16.31.21.045] [INFO ] Worker memulai batch 4 email via SMTP: smtp.gmail.com
+[2026-09-10 16.31.21.048] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.31.21.050] [INFO ] Dispatcher: Semua kontak telah berhasil di-dispatch / antrean kosong.
+[2026-09-10 16.31.21.050] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.31.42.131] [ERROR] Koneksi SMTP Terputus/Gagal: Socket Error # 10060
+Connection timed out.
+[2026-09-10 16.34.51.309] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.34.51.359] [INFO ] Skema database siap.
+[2026-09-10 16.34.55.262] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.37.29.733] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.37.29.739] [INFO ] Skema database siap.
+[2026-09-10 16.37.46.899] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.37.46.899] [INFO ] Skema database siap.
+[2026-09-10 16.37.51.130] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.37.51.130] [INFO ] Dispatcher: Memulai Campaign ID 3
+[2026-09-10 16.37.51.135] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.37.51.135] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.37.51.146] [INFO ] Dispatcher: Meluncurkan Worker (SMTP smtp.gmail.com) untuk 4 email. (Mode Warm-Up: Mati, Sisa Kuota Harian: 496)
+[2026-09-10 16.37.51.160] [INFO ] Worker memulai batch 4 email via SMTP: smtp.gmail.com
+[2026-09-10 16.37.51.162] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.37.51.163] [INFO ] Dispatcher: Semua kontak telah berhasil di-dispatch / antrean kosong.
+[2026-09-10 16.37.51.163] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.37.53.163] [ERROR] Koneksi SMTP Terputus/Gagal: SSL negotiation failed.
+[2026-09-10 16.38.04.552] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.38.04.552] [INFO ] Skema database siap.
+[2026-09-10 16.38.08.257] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.41.23.139] [ERROR] Circuit Breaker Check Error: "" is an invalid integer
+[2026-09-10 16.41.23.157] [INFO ] Dispatcher: Memulai Campaign ID 3
+[2026-09-10 16.41.23.227] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.41.44.205] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.41.44.214] [INFO ] Skema database siap.
+[2026-09-10 16.41.50.134] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.44.31.186] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.44.31.202] [INFO ] Skema database siap.
+[2026-09-10 16.44.35.681] [INFO ] Dispatcher: Memulai Campaign ID 3
+[2026-09-10 16.44.35.704] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.44.35.713] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.44.35.731] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.44.41.059] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.44.41.059] [INFO ] Skema database siap.
+[2026-09-10 16.44.43.429] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.44.47.423] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.44.47.439] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.44.47.457] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.44.47.457] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.44.48.763] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.44.48.781] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.44.48.783] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.44.48.784] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.44.49.419] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.44.49.436] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.44.49.453] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.44.49.453] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.44.49.637] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.44.49.637] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.44.49.657] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.44.49.657] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.44.49.865] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.44.49.920] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.44.49.938] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.44.49.938] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.44.50.320] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.44.50.344] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.44.50.352] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.44.50.352] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.44.51.099] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.44.51.102] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.44.51.119] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.44.51.123] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.45.56.700] [INFO ] Berhasil mengimpor batch berisi 4 kontak.
+[2026-09-10 16.46.34.383] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.46.34.383] [INFO ] Skema database siap.
+[2026-09-10 16.46.38.047] [INFO ] Berhasil mengimpor batch berisi 4 kontak.
+[2026-09-10 16.46.50.237] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.46.50.237] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.46.50.237] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.46.50.237] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.46.51.755] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.46.51.762] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.46.51.762] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.46.51.762] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.46.52.553] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.46.52.558] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.46.52.558] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.46.52.558] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.46.52.835] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.46.52.836] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.46.52.836] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.46.52.836] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.46.53.054] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.46.53.064] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.46.53.067] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.46.53.067] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.46.53.274] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.46.53.279] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.46.53.280] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.46.53.280] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.46.53.480] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.46.53.485] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.46.53.487] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.46.53.487] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.46.53.691] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.46.53.701] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.46.53.701] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.46.53.701] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.47.03.831] [INFO ] Seluruh antrean (Active & Queued) berhasil dibatalkan oleh pengguna.
+[2026-09-10 16.47.08.423] [INFO ] Dispatcher: Memulai Campaign ID 1
+[2026-09-10 16.47.08.423] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 16.47.08.423] [WARN ] Dispatcher: Semua profil SMTP telah mencapai batas limit harian (Limit/Warm-Up). Kampanye dijeda.
+[2026-09-10 16.47.08.423] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 16.53.29.326] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 16.53.29.361] [INFO ] Skema database siap.
+[2026-09-10 17.06.35.696] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 17.06.35.733] [INFO ] Skema database siap.
+[2026-09-10 17.09.07.657] [INFO ] Dispatcher: Memulai Campaign ID 3
+[2026-09-10 17.09.07.689] [INFO ] Kampanye dimulai via Dashboard.
+[2026-09-10 17.09.07.790] [INFO ] Dispatcher: Meluncurkan Worker (SMTP 127.0.0.1) untuk 4 email. (Mode Warm-Up: Mati, Sisa Kuota Harian: 9996)
+[2026-09-10 17.09.07.790] [INFO ] Worker memulai batch 4 email via SMTP: 127.0.0.1
+[2026-09-10 17.09.07.839] [INFO ] Dispatcher: Semua kontak telah berhasil di-dispatch / antrean kosong.
+[2026-09-10 17.09.07.839] [INFO ] Dispatcher: Selesai menugaskan antrean (atau batas harian tercapai / CB Aktif).
+[2026-09-10 17.16.28.898] [INFO ] Memeriksa dan inisialisasi skema database...
+[2026-09-10 17.16.28.907] [INFO ] Skema database siap.
