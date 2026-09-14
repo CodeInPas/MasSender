@@ -39,3 +39,15 @@ Download Release : https://github.com/CodeInPas/MasSender/releases/tag/MasSender
 > Kepatuhan: Anda bertanggung jawab penuh untuk memastikan bahwa kampanye email Anda mematuhi semua undang-undang anti-spam lokal maupun internasional yang berlaku (seperti CAN-SPAM Act, GDPR, dll.), termasuk keharusan untuk menyediakan mekanisme berhenti berlangganan (opt-out/unsubscribe) yang jelas bagi para penerima Anda.
 >
 > Bebas Tanggung Gugat: Para pengembang dan kontributor dari proyek sumber terbuka (open-source) ini tidak menanggung kewajiban hukum apa pun dan tidak bertanggung jawab atas segala bentuk penyalahgunaan, kerugian, atau konsekuensi hukum yang ditimbulkan oleh penggunaan perangkat lunak ini.
+
+
+---
+## ☕ Support the Project
+
+If you find **LLAMA Control Center** helpful and want to support its ongoing development, consider buying me a coffee or sending a tip. Any support is deeply appreciated!
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://Ko-fi.com/ainovasinusantara)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/KangOz)
+
+> **💡 Your support keeps the momentum going!**  
+> Every contribution directly fuels my passion, energy, and motivation to continuously build, maintain, and release even more useful open-source desktop applications for the developer community.
