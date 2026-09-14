@@ -1,3 +1,6 @@
+
+<img width="933" height="553" alt="Massender" src="https://github.com/user-attachments/assets/cb4f6764-e2f2-409b-baf0-41762229f855" />
+
 **Inggris:**
 
 > # PasMail - Enterprise-Grade Bulk Emailer
