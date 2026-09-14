@@ -17,7 +17,7 @@
 
 # Download
 Download Release : https://github.com/CodeInPas/MasSender/releases/tag/MasSender_v01
-
+**Inggris:**
 By downloading, installing, or using this software, you explicitly agree to the following terms:
 
 Intended Use: MasSenderis a powerful mass email delivery application designed strictly for legitimate marketing, transactional communications, and authorized newsletter distributions.
@@ -29,7 +29,8 @@ Compliance: You are solely responsible for ensuring that your email campaigns co
 No Liability: The developers and contributors of this open-source project assume no liability and are not responsible for any misuse, damage, or legal consequences caused by the use of this software.
 
 ---
-Bahasa
+**Indonesia:**
+
 
 Tujuan Penggunaan: MasSender adalah aplikasi pengiriman email massal tangguh yang dirancang secara tegas untuk pemasaran yang sah, komunikasi transaksional, dan distribusi nawala (newsletter) yang resmi.
 
