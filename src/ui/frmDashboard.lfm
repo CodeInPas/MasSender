@@ -1,0 +1,206 @@
+object frmDashboardForm: TfrmDashboardForm
+  Left = 350
+  Height = 450
+  Top = 150
+  Width = 750
+  Caption = 'Command Center - Realtime Analytics'
+  ClientHeight = 450
+  ClientWidth = 750
+  DoubleBuffered = True
+  ParentDoubleBuffered = False
+  Position = poScreenCenter
+  LCLVersion = '4.8.0.0'
+  object pnlControl: TPanel
+    Left = 6
+    Height = 74
+    Top = 6
+    Width = 738
+    Align = alTop
+    BorderSpacing.Around = 6
+    ClientHeight = 74
+    ClientWidth = 738
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 7
+      Height = 15
+      Top = 7
+      Width = 724
+      Align = alTop
+      BorderSpacing.Around = 6
+      Caption = 'Select Campaign:'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object cbCampaigns: TComboBox
+      Left = 7
+      Height = 23
+      Top = 34
+      Width = 250
+      Align = alLeft
+      BorderSpacing.Top = 6
+      BorderSpacing.Around = 6
+      ItemHeight = 15
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object btnDnsCheck: TButton
+      Left = 263
+      Height = 39
+      Top = 28
+      Width = 140
+      Align = alLeft
+      BorderSpacing.Around = 6
+      Caption = 'Pre-Flight DNS Check'
+      TabOrder = 1
+      OnClick = btnDnsCheckClick
+    end
+    object btnStart: TButton
+      Left = 409
+      Height = 39
+      Top = 28
+      Width = 130
+      Align = alLeft
+      BorderSpacing.Around = 6
+      Caption = 'START CAMPAIGN'
+      Font.Color = clGreen
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 2
+      OnClick = btnStartClick
+    end
+    object btnStop: TButton
+      Left = 545
+      Height = 39
+      Top = 28
+      Width = 130
+      Align = alLeft
+      BorderSpacing.Around = 6
+      Caption = 'STOP / PAUSE'
+      Enabled = False
+      Font.Color = clMaroon
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 3
+      OnClick = btnStopClick
+    end
+  end
+  object gbLocalStats: TGroupBox
+    Left = 6
+    Height = 318
+    Top = 86
+    Width = 376
+    Align = alLeft
+    BorderSpacing.Around = 6
+    Caption = ' Local Delivery Engine (SQLite) '
+    ClientHeight = 298
+    ClientWidth = 372
+    TabOrder = 1
+    object lblSent: TLabel
+      Left = 20
+      Height = 25
+      Top = 15
+      Width = 61
+      Caption = 'Sent: 0'
+      Font.Color = clNavy
+      Font.Height = -19
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblQueued: TLabel
+      Left = 20
+      Height = 25
+      Top = 50
+      Width = 91
+      Caption = 'Queued: 0'
+      Font.Color = clTeal
+      Font.Height = -19
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblBounced: TLabel
+      Left = 20
+      Height = 25
+      Top = 85
+      Width = 100
+      Caption = 'Bounced: 0'
+      Font.Color = clMaroon
+      Font.Height = -19
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object gbRemoteStats: TGroupBox
+    Left = 388
+    Height = 318
+    Top = 86
+    Width = 356
+    Align = alClient
+    BorderSpacing.Around = 6
+    Caption = ' Live Web Analytics (API Polling) '
+    ClientHeight = 298
+    ClientWidth = 352
+    TabOrder = 2
+    object lblOpens: TLabel
+      Left = 20
+      Height = 25
+      Top = 15
+      Width = 77
+      Caption = 'Opens: 0'
+      Font.Color = clGreen
+      Font.Height = -19
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblClicks: TLabel
+      Left = 20
+      Height = 25
+      Top = 50
+      Width = 71
+      Caption = 'Clicks: 0'
+      Font.Color = clPurple
+      Font.Height = -19
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblUnsubs: TLabel
+      Left = 20
+      Height = 25
+      Top = 85
+      Width = 87
+      Caption = 'Unsubs: 0'
+      Font.Color = clGray
+      Font.Height = -19
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object pnlStatus: TPanel
+    Left = 0
+    Height = 40
+    Top = 410
+    Width = 750
+    Align = alBottom
+    ClientHeight = 40
+    ClientWidth = 750
+    Color = clInfoBk
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 3
+    object lblSystemStatus: TLabel
+      Left = 15
+      Height = 15
+      Top = 12
+      Width = 233
+      Caption = 'System Status: Waiting for command (Idle)...'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object tmrSync: TTimer
+    Enabled = False
+    Interval = 2000
+    OnTimer = tmrSyncTimer
+    Left = 688
+    Top = 20
+  end
+end

@@ -1,0 +1,176 @@
+object frmContactsForm: TfrmContactsForm
+  Left = 350
+  Height = 472
+  Top = 150
+  Width = 753
+  Caption = 'Contact & Suppression Management'
+  ClientHeight = 472
+  ClientWidth = 753
+  Position = poScreenCenter
+  LCLVersion = '4.8.0.0'
+  object pnlTop: TPanel
+    Left = 0
+    Height = 80
+    Top = 0
+    Width = 753
+    Align = alTop
+    ClientHeight = 80
+    ClientWidth = 753
+    TabOrder = 0
+    object lblTotal: TLabel
+      Left = 20
+      Height = 15
+      Top = 15
+      Width = 83
+      Caption = 'Total Contacts: 0'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblActive: TLabel
+      Left = 20
+      Height = 15
+      Top = 45
+      Width = 94
+      Caption = 'Active (Ready): 0'
+      Font.Color = clGreen
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblBounced: TLabel
+      Left = 200
+      Height = 15
+      Top = 45
+      Width = 62
+      Caption = 'Bounced: 0'
+      Font.Color = clRed
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblUnsubscribed: TLabel
+      Left = 350
+      Height = 15
+      Top = 45
+      Width = 88
+      Caption = 'Unsubscribed: 0'
+      Font.Color = clGray
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblQueued: TLabel
+      Left = 520
+      Height = 15
+      Top = 45
+      Width = 57
+      Caption = 'Queued: 0'
+      Font.Color = clBlue
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Height = 60
+    Top = 412
+    Width = 753
+    Align = alBottom
+    ClientHeight = 60
+    ClientWidth = 753
+    TabOrder = 1
+    object btnImportCSV: TButton
+      Left = 6
+      Height = 48
+      Top = 6
+      Width = 150
+      Align = alLeft
+      BorderSpacing.Around = 5
+      Caption = 'Import Contacts (CSV)'
+      TabOrder = 0
+      OnClick = btnImportCSVClick
+    end
+    object btnManualOptOut: TButton
+      Left = 161
+      Height = 48
+      Top = 6
+      Width = 150
+      Align = alLeft
+      BorderSpacing.Around = 5
+      Caption = 'Manual Suppression'
+      TabOrder = 1
+      OnClick = btnManualOptOutClick
+    end
+    object btnRefresh: TButton
+      Left = 597
+      Height = 48
+      Top = 6
+      Width = 150
+      Align = alRight
+      BorderSpacing.Around = 5
+      Caption = 'Refresh Data'
+      TabOrder = 2
+      OnClick = btnRefreshClick
+    end
+    object btnCancelQueue: TButton
+      Left = 316
+      Height = 48
+      Top = 6
+      Width = 163
+      Align = alLeft
+      BorderSpacing.Around = 5
+      Caption = 'Cancel Queue'
+      TabOrder = 3
+      OnClick = btnCancelQueueClick
+    end
+  end
+  object gbPreview: TGroupBox
+    Left = 4
+    Height = 324
+    Top = 84
+    Width = 745
+    Align = alClient
+    BorderSpacing.Around = 4
+    Caption = ' Data Preview (Top 100) '
+    ClientHeight = 304
+    ClientWidth = 741
+    TabOrder = 2
+    object sgContacts: TStringGrid
+      Left = 4
+      Height = 296
+      Top = 4
+      Width = 733
+      Align = alClient
+      AutoFillColumns = True
+      BorderSpacing.Around = 4
+      ColCount = 4
+      FixedCols = 0
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRowSelect]
+      TabOrder = 0
+      ColWidths = (
+        184
+        183
+        183
+        183
+      )
+      Cells = (
+        4
+        0
+        0
+        'ID'
+        1
+        0
+        'Email'
+        2
+        0
+        'Name'
+        3
+        0
+        'Status'
+      )
+    end
+  end
+  object dlgOpenCSV: TOpenDialog
+    Title = 'Select Contact CSV File'
+    Filter = 'CSV Files (*.csv)|*.csv|All Files (*.*)|*.*'
+    Left = 464
+    Top = 32
+  end
+end

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="MasSender.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="16"/>
+        <CursorPos X="65" Y="19"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ui\frmMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="193"/>
+        <CursorPos X="5" Y="222"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ui\frmDashboard.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmDashboardForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="213"/>
+        <CursorPos X="4" Y="220"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ui\frmContacts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmContactsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="175"/>
+        <CursorPos X="5" Y="237"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ui\frmCampaigns.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmCampaignsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="18"/>
+        <TopLine Value="209"/>
+        <CursorPos X="5" Y="238"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ui\frmSettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSettingsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="211"/>
+        <CursorPos X="5" Y="240"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="core\uSmtpDispatcher.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="228"/>
+        <CursorPos X="5" Y="259"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="core\uSmtpWorker.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="17"/>
+        <TopLine Value="200"/>
+        <CursorPos X="5" Y="230"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="core\uBounceProcessor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="58"/>
+        <CursorPos X="58" Y="88"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="core\uDnsChecker.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="14"/>
+        <TopLine Value="122"/>
+        <CursorPos X="5" Y="152"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="core\uLicenseManager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="181"/>
+        <CursorPos X="5" Y="211"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="data\uDbConnection.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="203"/>
+        <CursorPos X="5" Y="234"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="data\uContactRepo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="224"/>
+        <CursorPos X="107" Y="238"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="data\uCampaignRepo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="169"/>
+        <CursorPos X="5" Y="200"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="data\uSmtpRepo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="399"/>
+        <CursorPos X="5" Y="430"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="api\uAnalyticsClient.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="35"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utils\uAppConfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="20"/>
+        <TopLine Value="17"/>
+        <CursorPos X="5" Y="161"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utils\uLogger.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="21"/>
+        <CursorPos X="5" Y="122"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="api\uaispintax.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uAiSpintax"/>
+        <EditorIndex Value="15"/>
+        <TopLine Value="166"/>
+        <CursorPos Y="196"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ui\frmCampaigns.lfm"/>
+        <EditorIndex Value="19"/>
+        <TopLine Value="141"/>
+        <CursorPos X="39" Y="171"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ui\frmSettings.lfm"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="261"/>
+        <CursorPos X="4" Y="291"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ui\frmDashboard.lfm"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="176"/>
+        <CursorPos X="4" Y="206"/>
+        <UsageCount Value="16"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ui\frmContacts.lfm"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="146"/>
+        <CursorPos X="4" Y="176"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="data\uSmtpRepo.pas"/>
+        <Caret Line="408" Column="35" TopLine="401"/>
+      </Position>
+      <Position>
+        <Filename Value="data\uSmtpRepo.pas"/>
+        <Caret Line="422" Column="22" TopLine="401"/>
+      </Position>
+      <Position>
+        <Filename Value="core\uSmtpDispatcher.pas"/>
+        <Caret Line="239" Column="51" TopLine="230"/>
+      </Position>
+      <Position>
+        <Filename Value="core\uSmtpDispatcher.pas"/>
+        <Caret Line="248" Column="23" TopLine="230"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmDashboard.pas"/>
+        <Caret Line="190" Column="46" TopLine="182"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmDashboard.pas"/>
+        <Caret Line="273" Column="20" TopLine="255"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmDashboard.pas"/>
+        <Caret Line="264" Column="46" TopLine="255"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmDashboard.pas"/>
+        <Caret Line="130" Column="41" TopLine="115"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmContacts.pas"/>
+        <Caret Line="83" Column="50" TopLine="75"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmContacts.pas"/>
+        <Caret Line="226" Column="34" TopLine="208"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmSettings.pas"/>
+        <Caret Line="217" Column="67" TopLine="211"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmSettings.pas"/>
+        <Caret Line="240" Column="5" TopLine="211"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmSettings.pas"/>
+        <Caret Line="218" Column="39" TopLine="212"/>
+      </Position>
+      <Position>
+        <Filename Value="core\uLicenseManager.pas"/>
+        <Caret Line="155" Column="73" TopLine="143"/>
+      </Position>
+      <Position>
+        <Filename Value="core\uLicenseManager.pas"/>
+        <Caret Line="201" Column="62" TopLine="182"/>
+      </Position>
+      <Position>
+        <Filename Value="core\uDnsChecker.pas"/>
+        <Caret Line="129" Column="86" TopLine="118"/>
+      </Position>
+      <Position>
+        <Filename Value="core\uDnsChecker.pas"/>
+        <Caret Line="130" Column="87" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="core\uSmtpWorker.pas"/>
+        <Caret Line="157" Column="86" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="core\uSmtpWorker.pas"/>
+        <Caret Line="214" Column="84" TopLine="201"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmCampaigns.pas"/>
+        <Caret Line="214" Column="78" TopLine="208"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmCampaigns.pas"/>
+        <Caret Line="225" Column="74" TopLine="209"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmCampaigns.lfm"/>
+        <Caret Line="112" Column="71" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmCampaigns.lfm"/>
+        <Caret Line="21" Column="74"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmSettings.lfm"/>
+        <Caret Line="254" Column="51" TopLine="235"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmSettings.lfm"/>
+        <Caret Line="27" Column="41" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmContacts.lfm"/>
+        <Caret TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmContacts.lfm"/>
+        <Caret Line="164" Column="46" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmDashboard.lfm"/>
+        <Caret Line="176" Column="49" TopLine="159"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmDashboard.lfm"/>
+        <Caret Line="195" Column="31" TopLine="176"/>
+      </Position>
+      <Position>
+        <Filename Value="ui\frmMain.pas"/>
+        <Caret Line="221" Column="5" TopLine="192"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
